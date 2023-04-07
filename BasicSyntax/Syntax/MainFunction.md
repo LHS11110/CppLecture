@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 
 ```./main.out MyString1 MyString2 MyString3```
 
-- 위 코드에서 argc와 argv에는 사용자가 입력하지 않아도 기본적으로 들어가는 값이 존재한다. 때문에 argc는 3이 아닌 4가 들어간다.
+- argc와 argv에는 사용자가 입력하지 않아도 기본적으로 들어가는 값이 존재한다. 때문에 argc는 3이 아닌 4가 들어간다.
 - argv의 0번째는 프로그램의 실행명이며 1번째부터 위 인자의 순서에 따라 저장된다.
 - 인자는 띄어쓰기로 구분된다.
 
