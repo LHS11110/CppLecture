@@ -23,6 +23,21 @@ int main(void)
 }
 ```
 
+```cpp
+void func(void)
+{
+    int a = 10; // 지역 내에 똑같은 이름이 존재하지 않는다면 사용할 수 있다.
+    return;
+}
+
+int main(void)
+{
+    int a = 20;
+    func();
+    return 0;
+}
+```
+
 ## 전역 변수
 - 모든 곳에서 접근 가능한 변수이다.
 
