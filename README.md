@@ -27,5 +27,18 @@
 - C++은 컴파일러 언어다. 컴파일러란 소스코드를 목적코드로 변환하는 번역가를 말한다.
 - 사람이 하는 수학적 계산은 느리고 정확하지 않기 때문에 컴퓨터에게 계산을 맡겨야 한다. 하지만 사람이 쓰는 자연어와는 달리 컴퓨터는 0과 1로 이루어진 2진수라는 형태의 언어를 사용한다. 쓰이는 언어가 다르기에 번역이라는 과정이 필요하다. 엄격한 문법으로 의사를 표현하고 번역가가 이를 번역하면 컴퓨터가 실행해준다. 여기서 번역가가 컴파일러이다.
 - 컴파일러 언어란 개발자가 프로그래밍 언어를 통해 필요한 모든 소스코드를 작성하면 이를 한번에 번역하고 컴퓨터가 수행하는 방식을 가진 언어를 말한다.
-# 기본 구문
-- [BasicSyntax](./BasicSyntax/)
+# [기본 구문](./BasicSyntax/)
+1. [식별자](./BasicSyntax/Syntax/Identifier.md)
+2. [변수와 함수의 의미](./BasicSyntax/Syntax/VariableAndFunction.md)
+3. [연산자](./BasicSyntax/Syntax/Operator.md)
+4. [기본 자료형과 변수](./BasicSyntax/Syntax/PrimaryDataType.md)
+5. [파생 자료형](./BasicSyntax/Syntax/DerivedDataType.md)
+6. [사용자 정의 자료형](./BasicSyntax/Syntax/UserDefinedDataType.md)
+7. [배열과 포인터](./BasicSyntax/Syntax/ArrayAndPointer.md)
+8. [메인 함수](./BasicSyntax/Syntax/MainFunction.md)
+9. [C++ 기본 코드 예제](./BasicSyntax/Example/CppExample.md)
+10. [조건문](./BasicSyntax/Syntax/IfConditionalStatements.md)
+11. [반복문](./BasicSyntax/Syntax/LoopStatements.md)
+12. [지역 변수와 전역 변수](./BasicSyntax/Syntax/LocalAndGlobalVariables.md)
+13. [전처리기](./BasicSyntax/Syntax/Preprocessor.md)
+14. [전처리기 예제](./BasicSyntax/Example/PreprocessorExample.md)
