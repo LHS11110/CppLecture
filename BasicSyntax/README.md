@@ -10,3 +10,4 @@
 9. [C++ 기본 코드 예제](./CppExample.md)
 10. [조건문](./IfConditionalStatements.md)
 11. [반복문](./LoopStatements.md)
+12. [지역 변수와 전역 변수](./LocalAndGlobalVariables.md)
