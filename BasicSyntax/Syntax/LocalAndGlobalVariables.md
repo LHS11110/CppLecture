@@ -26,7 +26,7 @@ int main(void)
 ```cpp
 void func(void)
 {
-    int a = 10; // 식별자는 지역 내에 똑같은 이름이 존재하지 않는다면 사용할 수 있다.
+    int a = 10; // 지역 내에 똑같은 이름이 존재하지 않는다면 사용할 수 있다.
     return;
 }
 
