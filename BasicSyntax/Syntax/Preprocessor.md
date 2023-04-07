@@ -85,7 +85,7 @@ SQUARE(2)
 ### ifndef
 - ifdef의 반대로 매크로 이름이 정의되어 있지 않다면 아래 코드를 컴파일 한다는 의미를 가진다.
 ### endif
-- if와 ifdef, ifndef의 범위를 정하는데 쓰이며 항상 와야 한다.
+- if와 ifdef, ifndef의 범위를 정하는데 쓰이며 항상 함께 와야 한다.
 
 ```cpp
 # define VAR 0
