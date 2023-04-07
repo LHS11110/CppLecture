@@ -25,7 +25,7 @@
 12. [지역 변수와 전역 변수](./BasicSyntax/Syntax/LocalAndGlobalVariables.md)
 13. [전처리기](./BasicSyntax/Syntax/Preprocessor.md)
 14. [전처리기 예제](./BasicSyntax/Example/PreprocessorExample.md)
-# OOP
+# [OOP](./BasicSyntax/)
 - [클래스](./BasicSyntax/Syntax/Class.md)
 # 패러다임의 종류
 ## 절차지향
