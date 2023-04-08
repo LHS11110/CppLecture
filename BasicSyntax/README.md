@@ -14,4 +14,4 @@
 13. [전처리기](./Syntax/Preprocessor.md)
 14. [전처리기 예제](./Example/PreprocessorExample.md)
 # OOP
-1. [클래스](./Syntax/Class.md)
+1. [객체 지향](./Syntax/ObjectOriented.md)
