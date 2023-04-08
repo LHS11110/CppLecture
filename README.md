@@ -26,7 +26,7 @@
 13. [전처리기](./BasicSyntax/Syntax/Preprocessor.md)
 14. [전처리기 예제](./BasicSyntax/Example/PreprocessorExample.md)
 # [OOP](./BasicSyntax/)
-- [클래스](./BasicSyntax/Syntax/ObjectOriented.md)
+- [객체](./BasicSyntax/Syntax/ObjectOriented.md)
 # 패러다임의 종류
 ## 절차지향
 - 프로그램에서 수행할 명령을 순차적으로 처리하는 방식을 말하며 C언어가 대표적이다.
