@@ -13,5 +13,3 @@
 12. [지역 변수와 전역 변수](./LocalAndGlobalVariables.md)
 13. [전처리기](./Preprocessor.md)
 14. [전처리기 예제](./Example/PreprocessorExample.md)
-# OOP
-1. [객체 지향](./ObjectOriented.md)
