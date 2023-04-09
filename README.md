@@ -28,6 +28,7 @@
 15. [이름 공간과 입출력](./BasicSyntax/Syntax/NamespaceAndIOstream.md)
 # [OOP](./BasicSyntax/OOP/)
 - [객체](./BasicSyntax/OOP/ObjectOriented.md)
+- [생성자 종류](./BasicSyntax/OOP/Constructors)
 # [키워드](./BasicSyntax/Keyword/)
 - [const와 static](./BasicSyntax/Keyword/ConstAndStatic.md)
 # 패러다임의 종류
