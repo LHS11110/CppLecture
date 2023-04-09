@@ -1,4 +1,6 @@
 # 기본 구문
+C++에서 쓰이는 가장 기본적인 구문
+
 1. [식별자](./Identifier.md)
 2. [변수와 함수의 의미](./VariableAndFunction.md)
 3. [연산자](./Operator.md)
