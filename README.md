@@ -26,9 +26,9 @@
 13. [전처리기](./BasicSyntax/Syntax/Preprocessor.md)
 14. [전처리기 예제](./BasicSyntax/Example/PreprocessorExample.md)
 15. [이름 공간과 입출력](./BasicSyntax/Syntax/NamespaceAndIOstream.md)
-# OOP
+# [OOP](./BasicSyntax/OOP/)
 - [객체](./BasicSyntax/OOP/ObjectOriented.md)
-# 키워드
+# [키워드]()
 - [const와 static](./BasicSyntax/Syntax/ConstAndStatic.md)
 # 패러다임의 종류
 ## 절차지향
