@@ -203,7 +203,7 @@ int main(void)
 {
     int num;
 
-    // std라는 이름 공간에 포함된 cout으로 num을 출력한다.
+    // std라는 이름 공간에 포함된 cin으로 입력받아 num에 할당한다.
     std::cin >> num;
 
     return 0;
