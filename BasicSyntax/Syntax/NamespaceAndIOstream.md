@@ -193,3 +193,21 @@ int main(void)
 ```cpp
 std::cout << num << str << '\n';
 ```
+
+입력은 아래와 같이 받는다.
+
+```cpp
+#include <iostream>
+
+int main(void)
+{
+    int num;
+
+    // std라는 이름 공간에 포함된 cout으로 num을 출력한다.
+    std::cin >> num;
+
+    return 0;
+}
+```
+
+`cin`은 무언가를 입력받을 수 있다. 이때 출력하려면 비트 연산자인 `>>`를 사용한다.
