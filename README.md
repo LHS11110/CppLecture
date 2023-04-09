@@ -10,7 +10,7 @@
 - `어셈블리어`: 기계어와 일대일 대응되는 프로그래밍 언어이다. 기계어는 사람이 읽을 수 없기에 어셈블리어로 변환하여 작업한다.
 - `빌드`: 소스코드를 실행될 수 있는 프로그램으로 만드는 과정을 말한다.
 - `런타임`: 프로그램이 실행되고 있는 동안의 실시간을 말한다.
-# [기본 구문](./BasicSyntax/)
+# [기본 구문](./BasicSyntax/Syntax/)
 1. [식별자](./BasicSyntax/Syntax/Identifier.md)
 2. [변수와 함수의 의미](./BasicSyntax/Syntax/VariableAndFunction.md)
 3. [연산자](./BasicSyntax/Syntax/Operator.md)
@@ -19,15 +19,15 @@
 6. [사용자 정의 자료형](./BasicSyntax/Syntax/UserDefinedDataType.md)
 7. [배열과 포인터](./BasicSyntax/Syntax/ArrayAndPointer.md)
 8. [메인 함수](./BasicSyntax/Syntax/MainFunction.md)
-9. [C++ 기본 코드 예제](./BasicSyntax/Example/CppExample.md)
+9. [C++ 기본 코드 예제](./BasicSyntax/Syntax/Example/CppExample.md)
 10. [조건문](./BasicSyntax/Syntax/IfConditionalStatements.md)
 11. [반복문](./BasicSyntax/Syntax/LoopStatements.md)
 12. [지역 변수와 전역 변수](./BasicSyntax/Syntax/LocalAndGlobalVariables.md)
 13. [전처리기](./BasicSyntax/Syntax/Preprocessor.md)
-14. [전처리기 예제](./BasicSyntax/Example/PreprocessorExample.md)
+14. [전처리기 예제](./BasicSyntax/Syntax/Example/PreprocessorExample.md)
 15. [이름 공간과 입출력](./BasicSyntax/Syntax/NamespaceAndIOstream.md)
 # OOP
-- [객체](./BasicSyntax/Syntax/ObjectOriented.md)
+- [객체](./BasicSyntax/OOP/ObjectOriented.md)
 # 키워드
 - [const와 static](./BasicSyntax/Syntax/ConstAndStatic.md)
 # 패러다임의 종류
