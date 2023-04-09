@@ -19,6 +19,7 @@ using namespace std;
 
 int func()
 {
+    // 정적 지역 변수 선언
     static int num = 0; // 처음 선언만 유효하고 0이 초기화된다. 이후의 선언 및 초기화는 무시된다.
     cout << num << '\n';
     return num++;
