@@ -1,7 +1,7 @@
 # CppLecture
 - C++은 객체 지향 프로그래밍 언어로, C라는 언어의 확장판이다.
 - C++은 C의 모든 기능을 포함하며 객체 지향이라는 패러다임과 제네릭 프로그래밍 기능을 추가하였다.
-- 제네릭 프로그래밍: 특정 자료형에 얽매이지 않고 여러 자료형을 가질 수 있어 재사용성을 높인 프로그램 방식, C++에서는 Template 기능이 있다.
+- `제네릭 프로그래밍`: 특정 자료형에 얽매이지 않고 여러 자료형을 가질 수 있어 재사용성을 높인 프로그램 방식, C++에서는 Template 기능이 있다.
 ## 용어
 - `패러다임`: 프로그래밍 언어에서 패러다임이란 접근 방식이나 관점을 말한다. 예를 들어 어떠한 패러다임은 문제를 해결하는데 이러한 방식으로 해결하겠다는 것을 말한다.
 - `소스코드`: 개발자가 작성한 프로그래밍 언어 코드를 말한다. 원시코드라고도 하며 엄격한 문법을 가지고 컴퓨터는 이를 해석하여 실행한다.
@@ -29,6 +29,7 @@
 # [OOP](./BasicSyntax/OOP/)
 1. [객체](./BasicSyntax/OOP/ObjectOriented.md)
 2. [생성자 종류](./BasicSyntax/OOP/Constructors.md)
+3. [객체 지향의 특징](./BasicSyntax/OOP/CharacteristicsOfOOP.md)
 # [키워드](./BasicSyntax/Keyword/)
 1. [const와 static](./BasicSyntax/Keyword/ConstAndStatic.md)
 # 패러다임의 종류
