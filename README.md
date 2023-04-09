@@ -27,10 +27,10 @@
 14. [전처리기 예제](./BasicSyntax/Example/PreprocessorExample.md)
 15. [이름 공간과 입출력](./BasicSyntax/Syntax/NamespaceAndIOstream.md)
 # [OOP](./BasicSyntax/OOP/)
-- [객체](./BasicSyntax/OOP/ObjectOriented.md)
-- [생성자 종류](./BasicSyntax/OOP/Constructors.md)
+1. [객체](./BasicSyntax/OOP/ObjectOriented.md)
+2. [생성자 종류](./BasicSyntax/OOP/Constructors.md)
 # [키워드](./BasicSyntax/Keyword/)
-- [const와 static](./BasicSyntax/Keyword/ConstAndStatic.md)
+1. [const와 static](./BasicSyntax/Keyword/ConstAndStatic.md)
 # 패러다임의 종류
 ## 절차지향
 - 프로그램에서 수행할 명령을 순차적으로 처리하는 방식을 말하며 C언어가 대표적이다.
