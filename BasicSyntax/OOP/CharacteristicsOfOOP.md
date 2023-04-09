@@ -9,3 +9,184 @@
 기존 클래스의 모든 요소를 새로운 클래스에게 상속하는 것을 말한다. 기존 클래스의 모든 요소를 상속받기에 보다 더 많은 기능을 갖춰 확장시킬 수 있는 개념이다. 상속성은 클래스의 재사용성과 유지보수에 많은 이점을 가진다. A 클래스를 B 클래스에게 상속할 때, A를 `부모 클래스`라고 하고 B를 `자식 클래스`라고 한다. 자식 클래스는 부모 클래스의 메소드를 재정의(Override)할 수 있고 부모 클래스의 메소드를 호출하여 부모 클래스의 은닉화된 데이터를 다룰 수 있다.
 # 다형성
 다형성이란 `객체`가 가진 `같은 이름의 메소드`가 `다양한 구현체`를 갖출 수 있는 객체 지향 프로그래밍의 개념이다. 다형성은 `오버로딩`과 `오버라이딩`, `템플릿`을 통해 구현된다.
+## 오버로딩
+같은 이름을 사용하는 함수를 중복하여 선언 및 정의할 수 있는 개념으로, 중복의 조건으로는 매개변수의 개수가 다르거나 자료형이 하나 이상 차이가 있어야 한다.
+함수의 반환 타입이나 매개변수의 이름은 같아도 되고 달라도 된다.
+
+```cpp
+int add(int num)
+{
+    static int n = 0;
+    return num + n++;
+}
+
+
+// 함수 오버로딩 조건에 매개변수의 이름은 포함되지 않는다.
+int add(int a, int b)
+{
+    return a + b;
+}
+
+
+/* 아래 함수는 2개의 정수형 매개변수를 가진다. 이는 오버로딩 조건에 충족되지 않으므로 에러가 발생한다.
+int add(int num1, int num2)
+{
+    return num1 + num2;
+}
+*/
+```
+
+오버로딩은 메소드에서도 가능한 기능이다.
+
+```cpp
+class MyClass
+{
+private:
+    int n;
+public:
+    MyClass()
+        : n(0)
+    {
+
+    }
+
+    int add(int num)
+    {
+        return num + n++;
+    }
+
+
+    int add(int a, int b)
+    {
+        return a + b;
+    }
+};
+```
+
+## 오버라이딩
+오버라이딩은 먼저 상속이라는 개념을 알아야 한다. 때문에 이 내용은 상속을 알고 나서 보는 것을 추천한다.
+오버라이딩은 부모 클래스의 메소드를 재정의하여 다른 동작을 하도록 만드는 기능이다. 오버라이딩의 조건으로 자식 클래스의 메소드가 부모 클래스의 메소드와 식별자, 반환 타입, 매개 변수의 개수와 타입이 동일해야 한다.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class A
+{
+private:
+    int num;
+public:
+    A()
+        : num(0)
+    {
+
+    }
+
+
+    int get()
+    {
+        return num + 10;
+    }
+};
+
+class B : public A
+{
+private:
+    int num;
+public:
+    B()
+        : A(), num(10)
+    {
+
+    }
+
+
+    // 메소드 오버라이딩
+    int get()
+    {
+        // 같은 이름으로 재정의하였기에 부모 클래스의 메소드는 범위 지정 연산자로 명시해야 한다.
+        return A::get() + 20;
+    }
+};
+
+int main(void)
+{
+    A a;
+    cout << a.get() << '\n'; // 10
+
+    B b;
+    cout << b.get() << '\n'; // 30
+
+    return 0;
+}
+```
+
+## 템플릿
+템플릿은 함수나 클래스에서 자료형을 명시하지 않고 선언 및 정의할 수 있도록 하는 일반화 기능이다. 아직 타입을 명시하지 않은 자료형을 제네릭이라고 한다.
+템플릿은 제네릭을 여러개 사용할 수 있다.
+
+```cpp
+// 명시되야 하는 모든 타입들은 템플릿의 제네릭으로 일반화 시킬 수 있다.
+template <typename T1, typename T2, ...>
+T func(T a, T b)
+{
+    ...
+}
+// T는 템플릿에서 선언한 임의의 제네릭 또는 자료형이다.
+
+
+// 호출 형태
+func<type1, type2, ...>(...);
+```
+
+```cpp
+// 함수 템플릿 예제
+template <typename T>
+T func(T a, T b)
+{
+    return a + b;
+}
+
+int main(void)
+{
+    int a = func<int>(3, 5); // 제네릭 T가 int로 바뀐다.
+    float b = func<float>(3.0, 5.0); // 제네릭 T가 float으로 바뀐다.
+
+    return 0;
+}
+```
+
+클래스 또한 템플릿을 사용할 수 있다.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+template <typename T>
+class A
+{
+private:
+    T value;
+public:
+    A(T val)
+        : value(val)
+    {
+
+    }
+
+    T get(void)
+    {
+        return value;
+    }
+};
+
+int main(void)
+{
+    A<int> a(10);
+    A<float> b(3.141592f);
+
+    cout << a.get() << '\n' << b.get();
+
+    return 0;
+}
+```
