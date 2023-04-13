@@ -126,7 +126,8 @@ int MyClass::count = 0;
 class MyClass
 {
 private:
-    const int num;
+    const int num; // MyClass의 메소드를 통해서만 접근이 가능한 멤버 변수
+
 public:
     MyClass()
         : num(0)
