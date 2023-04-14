@@ -32,6 +32,7 @@
 3. [객체 지향의 특징](./BasicSyntax/OOP/CharacteristicsOfOOP.md)
 # [키워드](./BasicSyntax/Keyword/)
 1. [const와 static](./BasicSyntax/Keyword/ConstAndStatic.md)
+2. [동적 할당과 new](./BasicSyntax/Keyword/Malloc.md)
 # 패러다임의 종류
 ## 절차지향
 - 프로그램에서 수행할 명령을 순차적으로 처리하는 방식을 말하며 C언어가 대표적이다.
