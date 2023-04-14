@@ -54,7 +54,7 @@ int main(void)
 
     cin >> len;
 
-    int* ptr = new int[len]; // 배열은 고정된 정수만으로 크기를 정하기에 배열 대신 포인터를 사용한다.
+    int* ptr = new int[len]; // len의 크기를 가진 int형 배열 동적 할당
 
     delete[] ptr; // 배열 메모리 공간 해제
 
