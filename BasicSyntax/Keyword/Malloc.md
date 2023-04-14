@@ -36,8 +36,8 @@ int main(void)
     MyClass* ptr = new MyClass;
  
     // 객체를 가르키는 포인터 변수의 멤버 접근
-    ptr->... = 1;
-    ptr->...();
+    ptr->num = 1;
+    ptr->test();
 
     delete ptr; // 메모리 공간 해제
 
