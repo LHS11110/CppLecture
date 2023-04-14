@@ -34,7 +34,7 @@ Class MyClass
 int main(void)
 {
     MyClass* ptr = new MyClass;
-    *ptr = 4;
+    ptr->... = 1; // 객체를 가르키는 포인터 변수의 멤버 접근
 
     delete ptr; // 메모리 공간 해제
 
