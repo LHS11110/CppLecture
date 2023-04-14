@@ -55,6 +55,7 @@ int main(void)
     cin >> len;
 
     int* ptr = new int[len]; // len의 크기를 가진 int형 배열 동적 할당
+    ptr[0] = 1;
 
     delete[] ptr; // 배열 메모리 공간 해제
 
