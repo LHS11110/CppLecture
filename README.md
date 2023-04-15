@@ -30,6 +30,7 @@
 1. [객체](./BasicSyntax/OOP/ObjectOriented.md)
 2. [생성자 종류](./BasicSyntax/OOP/Constructors.md)
 3. [객체 지향의 특징](./BasicSyntax/OOP/CharacteristicsOfOOP.md)
+4. [상속](./BasicSyntax/OOP/Inheritance)
 # [키워드](./BasicSyntax/Keyword/)
 1. [const와 static](./BasicSyntax/Keyword/ConstAndStatic.md)
 2. [동적 할당과 new](./BasicSyntax/Keyword/Malloc.md)
