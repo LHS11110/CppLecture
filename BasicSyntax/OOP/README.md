@@ -2,3 +2,4 @@
 1. [객체](./ObjectOriented.md)
 2. [생성자 종류](./Constructors.md)
 3. [객체 지향의 특징](./CharacteristicsOfOOP.md)
+4. [상속](./Inheritance.md)
