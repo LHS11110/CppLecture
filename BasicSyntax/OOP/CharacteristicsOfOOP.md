@@ -128,11 +128,10 @@ int main(void)
 ```cpp
 // 명시되야 하는 모든 타입들은 템플릿의 제네릭으로 일반화 시킬 수 있다.
 template <typename T1, typename T2, ...>
-T func(T a, T b)
+T1 func(T2 a, T3 b)
 {
     ...
 }
-// T는 템플릿에서 선언한 임의의 제네릭 또는 자료형이다.
 
 
 // 호출 형태
